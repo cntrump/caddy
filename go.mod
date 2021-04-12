@@ -7,6 +7,13 @@ require (
 	github.com/alecthomas/chroma v0.8.2
 	github.com/aryann/difflib v0.0.0-20170710044230-e206f873d14a
 	github.com/caddyserver/certmagic v0.13.0
+	github.com/caddyserver/cue-adapter v0.0.0-20200410202637-353e4f1ea8ad
+	github.com/caddyserver/format-encoder v0.0.0-20201124212233-c10acf81b981
+	github.com/caddyserver/forwardproxy v0.0.0-20201205091008-b3a96fb34dbe
+	github.com/caddyserver/json5-adapter v0.0.0-20200325003923-6f6253a6c12d
+	github.com/caddyserver/jsonc-adapter v0.0.0-20200325004025-825ee096306c
+	github.com/caddyserver/ntlm-transport v0.1.1
+	github.com/caddyserver/replace-response v0.0.0-20210319174324-9d5652c02563
 	github.com/dustin/go-humanize v1.0.1-0.20200219035652-afde56e7acac
 	github.com/go-chi/chi v4.1.2+incompatible
 	github.com/google/cel-go v0.6.0
@@ -25,11 +32,11 @@ require (
 	github.com/yuin/goldmark v1.2.1
 	github.com/yuin/goldmark-highlighting v0.0.0-20200307114337-60d527fdb691
 	go.uber.org/zap v1.16.0
-	golang.org/x/crypto v0.0.0-20200728195943-123391ffb6de
+	golang.org/x/crypto v0.0.0-20201203163018-be400aefbc4c
 	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
 	golang.org/x/term v0.0.0-20210317153231-de623e64d2a6
 	google.golang.org/genproto v0.0.0-20200806141610-86f49bd18e98
-	google.golang.org/protobuf v1.24.0 // cannot upgrade until warning is fixed
+	google.golang.org/protobuf v1.25.0 // cannot upgrade until warning is fixed
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/yaml.v2 v2.3.0
 )

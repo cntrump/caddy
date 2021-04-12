@@ -31,6 +31,18 @@ import (
 
 	// plug in Caddy modules here
 	_ "github.com/caddyserver/caddy/v2/modules/standard"
+
+	_ "github.com/caddyserver/certmagic"
+
+	_ "github.com/caddyserver/ntlm-transport"
+	_ "github.com/caddyserver/forwardproxy"
+
+	_ "github.com/caddyserver/jsonc-adapter"
+	_ "github.com/caddyserver/json5-adapter"
+	_ "github.com/caddyserver/cue-adapter"
+
+	_ "github.com/caddyserver/format-encoder"
+	_ "github.com/caddyserver/replace-response"
 )
 
 func main() {
